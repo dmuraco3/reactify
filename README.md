@@ -1,5 +1,7 @@
 # reactify
 
+A simple chrome extension that lets you convert a webpage into a React component.
+
 To install dependencies:
 
 ```bash
@@ -9,7 +11,5 @@ bun install
 To run:
 
 ```bash
-bun run index.ts
+bun run build
 ```
-
-This project was created using `bun init` in bun v1.0.30. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
