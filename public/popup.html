@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>Popup</title>
-    <link rel="stylesheet" href="popup.css">
-</head>
-<body>
-   <h1>This is my cool extension!!</h1>
-   <button id="selectButton">Start Selection</button>
+    <head>
+        <title>Popup</title>
+        <link rel="stylesheet" href="popup.css">
+    </head>
+    <body>
+        <h1>This is my cool extension!!</h1>
+        <div>
+            <button id="cursorSelectButton">Select With Cursor</button>
+            <button id="allSelectButton">Select Body</button>
+        </div>
+        <hr/>
+        <form id="XPathSelectForm">
+            <input name="XPath" placeholder="html > body > div"/>
+            <button type="submit">Select by XPath</button>
+        </form>
 
-
-   <script src="popup.js"></script>
-</body>
+        <script src="popup.js"></script>
+    </body>
 </html>

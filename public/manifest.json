@@ -8,9 +8,14 @@
    },
    "permissions": [
       "activeTab",
-      "scripting"
+      "scripting",
+      "clipboardWrite",
+      "tabs"
    ],
    "background": {
       "service_worker": "background.js"
-   }
+   },
+   "host_permissions": [
+       "*://*/"
+   ],
 }
